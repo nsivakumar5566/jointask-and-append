@@ -13,7 +13,7 @@
       <div class="card my-4 shadow">  
         <div class="card-body">
           <form action="{{ route('product.store')}}" method="POST">
-          <!-- @csrf -->
+          @csrf
           <div class="row">
             <div class="col-md-6">
             <div class="form-group">
